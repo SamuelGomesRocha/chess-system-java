@@ -25,7 +25,7 @@ public class Position {
 		this.column = column;
 	}
 	
-	@Override //sobrescrita
+	@Override //sobrescrita do método toString que é da classe Object
 	public String toString() {
 		return row + ", "+column; //imprime uma posição na tela
 	}
